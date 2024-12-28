@@ -1,0 +1,24 @@
+.pokemoninfobutton{
+    display: flex;
+    box-shadow: none;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 6px;
+    color: white;
+    margin: 0.5rem;
+}
+
+.pokemon-moves-button{
+    width: fit-content;
+    padding: 5rem;
+    height: 0rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 9px;
+    cursor:default;
+    transition: all 0.5s ease-in;
+    &:hover{
+        color: black!important;
+    }
+}

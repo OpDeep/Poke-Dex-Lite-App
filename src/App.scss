@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'AlleynW01';
+  src:  url("./fonts/Alleyn\ W01\ Regular.ttf")
+}
+
+html{
+  font-family: "AlleynW01";
+}
+
+*{
+  margin: 0;
+  font-weight: lighter;
+  transition: all 0.5s ease-in;
+  text-transform: capitalize;
+}
